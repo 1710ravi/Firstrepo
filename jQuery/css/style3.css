@@ -1,0 +1,14 @@
+body{
+    height: 100%;
+    background-color: skyblue;
+}
+.center h1{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.abc{
+   height: 300px;
+    width: 400px;
+    margin: auto;
+    background-color: greenyellow;
+}
