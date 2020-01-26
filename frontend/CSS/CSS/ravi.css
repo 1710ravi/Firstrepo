@@ -1,0 +1,21 @@
+body{
+	background: url('../images/dog.jpg')
+	no-repeat center fixed;
+	background-size: cover;
+}
+div{
+	background-color: #865E5B
+}
+i{
+	color: black;
+}
+h1{
+	color: black;
+	text-align: center;
+	/* border: 3px solid red; */
+	width: 400px;
+	padding: 20px;
+	margin: 100px auto;
+	font-family: 'Indie Flower', cursive;
+	font-size: 30px;
+}
