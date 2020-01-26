@@ -1,0 +1,11 @@
+.big{
+	height: 400px;
+	background: linear-gradient(to right,red,white)
+}
+.circle{
+	height: 400px;
+	background: radial-gradient(white,grey)
+}
+input:checked + label {
+	text-decoration: line-through;
+}

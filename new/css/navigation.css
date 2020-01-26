@@ -1,0 +1,28 @@
+body{
+	background-color: #3bc5c3;
+}
+div{
+	background-color: green;
+	height: 50px;
+}
+ul{
+	list-style-type: none;
+}
+h1{
+   color: rgb(250,200,250);
+   text-align: center;
+}
+li{
+	float: left;
+}
+li a{
+	display: block;
+	color: darkblue;
+	text-align: center;
+	padding: 15px 25px;
+	text-decoration: none;
+	font-size: 1em;
+}
+.ravi{
+	float: right;
+}
