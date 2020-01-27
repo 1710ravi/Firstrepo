@@ -1,0 +1,158 @@
+/*GOOGLE*/
+@import url('https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.fade-in.animated {
+    animation: .5s ease 0s 1 fadeIn;
+    animation-delay: .3s,0s;
+    animation-fill-mode: forwards;
+}
+header,section{
+    overflow: hidden;
+}
+header a{
+    font-family: 'Sniglet', cursive;
+    font-size: 0.9em;
+    color: darkgreen;
+}
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+header .nav-item{
+    padding: 0.9em;
+    font-size: 1em;
+}
+header .navbar-brand{
+    padding-left: 8em;
+    font-size: 2em;
+    color: darkgreen;
+}
+header .nav-link:hover{
+    color: black;
+}
+header .row .col-md-12{
+    padding: 18vmin 1vmin;
+    padding-bottom: 28vmin;
+    font-family: 'Patua One', cursive;
+    color: darkgreen;
+}
+header .row .col-md-12 .btn{
+    border-radius: 30px;
+    font-weight: bold;
+    background-color:darkgreen;
+    color: antiquewhite;
+}
+header p{
+    color: darkgreen;
+}
+header .header{
+    width: 100%;
+}
+
+/*  section-1  */
+
+.section-1{
+    margin-top: 30px;
+    width: 100%;
+    height: 280px;
+    margin-top: 50px;
+    margin-left: 60px;
+    overflow: hidden;
+}
+.cover{
+    width: 100%;
+    height: 55vmin;
+    background: url(../images/unique2.jpg);
+    position: relative;
+    transform: scale(1) translateZ(0px);
+    overflow: hidden;
+}
+.cover .container{
+    padding-top: 19vmin;
+    width: 100%;
+    height: 100%;animation-delay: 
+}
+.cover .container>h1{
+    font-family: 'Patua One', cursive;
+    font-size: 6vmin;
+}
+.cover .container>p{
+    font-size: 2vmin;
+    font-family: 'Rubik', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+.numbers .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    height: 10rem;
+    width: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: 1em;
+    box-shadow: 1px 2px 50px 0px rgba(255,0,0,0.3);
+}
+.numbers{
+    margin-top: -15vmin;
+}
+.numbers .rect h1{
+    color: orange;
+    font-size: 3em;
+}
+.numbers .rect p{
+    font-size: 1em;
+    font-weight: bold;
+    color: #40ecd6;
+    font-family: 'Patua One', cursive;
+}
+.purchase h1{
+    font-family: 'Patua One', cursive;;
+/*    margin-top: 10vmin;*/
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+}
+.purchase p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2vmin;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10vmin;
+}
+.purchase .cards .card{
+    margin-left: 4vmin;
+    width: 18rem;
+    height: 55vmin;
+    background-color: rgba(249,150,84,0.8)
+}
+.cards .div{
+    margin: 0px;
+    padding: 0px;
+}
+.cards .title{
+    font-size: 3vmin;
+/*    padding: 1.4rem 2.5rem;*/
+}
+
+.cards h5{
+    font-family: 'Acme', sans-serif;
+}
+.cards .card-text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2vmin;
+    color: black;
+    font-weight: bold;
+    margin-top: 40px
+/*    padding: 2.5rem 3rem;*/
+}
+.card .price{
+    margin-top: -100px
+}
+.purchase .cards a{
+    margin-top: 22px;
+}
