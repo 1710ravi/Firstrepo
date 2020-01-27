@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mouse Event</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <h2>Namaskaram</h2>
+    <div id="demo4" onmouseover="mOver()" onmouseout="mOut()"
+       style="background-color: brown ; width: 100px ; height: 100px ;  padding: 30px;text-align: center;float: left; border: 1px solid black; ">Click Me!!!! </div>
+    <div onmousemove="myMoveFunction()" style=  " width: 100px;
+  height: 100px; border: 1px solid black;margin: 10px;
+  float: left;  padding: 30px;text-align: center;
+  background-color: lightgray;">
+  <p>onmousemove: <br> <span id="demo">Mouse over me!</span></p>
+</div>
+
+<div onmouseenter="myEnterFunction()" style="  width: 100px;
+  height: 100px;border: 1px solid black;margin: 10px;float: left;
+  padding: 30px;text-align: center; background-color: lightgray;">
+  <p>onmouseenter: <br> <span id="demo2">Mouse over me!</span></p>
+</div>
+
+<div onmouseover="myOverFunction()" style="  width: 100px;
+  height: 100px;border: 1px solid black;margin: 10px;float: left;padding: 30px;text-align: center;background-color: lightgray;">
+  <p>onmouseover: <br> <span id="demo3">Mouse over me!</span></p>
+</div>
+    <script>
+    
+    function mOver(){
+         document.getElementById("demo4").style.backgroundColor = "yellow";
+         document.getElementById("demo4").innerHTML = "You Clicked!!";
+    }
+    
+    function mOut(){
+        document.getElementById("demo4").style.backgroundColor = "blue";
+         document.getElementById("demo4").innerHTML = "Go Away!!";  
+    }
+    
+var x = 0;
+var y = 0;
+var z = 0;
+
+function myMoveFunction() {
+  document.getElementById("demo").innerHTML = z+=1;
+}
+
+function myEnterFunction() {
+  document.getElementById("demo2").innerHTML = x+=1;
+}
+
+function myOverFunction() {
+  document.getElementById("demo3").innerHTML = y+=1;
+}
+        
+    </script>
+</body>
+</html>
