@@ -1,0 +1,44 @@
+body{
+    padding-top: 20px;
+    background-color: aquamarine;
+}
+.nav-justified{
+    background-color: azure;
+    border-radius: 10px;
+    border: 1px solid deepskyblue;
+    font-size: 15px;
+   
+}
+.ravi{
+    text-align: center;
+    font-size: 45px;
+}
+.nav-justified>li>a{
+    color:blue;
+    text-align: center;
+    
+}
+.jumbotron{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

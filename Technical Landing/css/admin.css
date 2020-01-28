@@ -1,0 +1,33 @@
+.nav-sidebar{
+    margin:20px -15px 20px 20px;
+}
+.nav-sidebar>li>a{
+    padding: 20px 20px;
+}
+.main{
+    background-color: blanchedalmond;
+    margin-top: -20px;
+}
+.ravi{
+    margin-top: 30px;
+}
+img{
+    height: 150px;
+    margin-left: -14px;
+}
+.placeholder{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.placeholder img{
+    display: inline;
+    border-radius: 50%;
+}
+.placeholders{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+footer{
+   
+    margin-left: 530px;
+}
