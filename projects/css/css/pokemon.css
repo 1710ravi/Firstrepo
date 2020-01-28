@@ -1,0 +1,81 @@
+body{
+    color: #5a5a5a;
+   padding-bottom: 20px;
+  
+}
+.navbar-wrapper{
+    z-index: 20;
+    top: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+.navbar-wrapper .navbar .container{
+    width: auto;
+}
+
+
+.color{
+    color:white;
+}
+
+.carousel .item{
+    height: 500px;
+}
+.carousel-inner>.item>img{
+    height: 500px;
+    min-width: 100%;
+    position: absolute;
+    top: 0;
+   
+}
+.col-lg-4{
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+.team h1{
+      margin-left: 10px;
+    margin-right: 10px;
+    color: cadetblue
+
+    
+}
+.divider{
+    margin: 40px 0;
+}
+.team p{
+    margin-left: 10px;
+    margin-right: 10px;   
+}
+.ravi{
+    padding-left:50px ;
+    padding-top:10px ;
+    margin-bottom: 40px;
+}
+.content{
+    margin-bottom:2
+        content0px;
+}
+footer{
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

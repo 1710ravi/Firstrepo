@@ -1,0 +1,23 @@
+body{
+	height: 10%;
+	background-color: brown;
+}
+video{
+	position: fixed;
+	width: 1350px;
+	background: cover;
+    margin-top: -378px;
+    margin-left: -10px;
+
+    z-index: 1;
+}
+h1{
+color: black;
+}
+div{
+	position: relative;
+    text-align: center;
+    margin: 100px auto;
+    width: 720px;
+    z-index: 2;
+}
